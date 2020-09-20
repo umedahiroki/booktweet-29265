@@ -44,8 +44,7 @@
 }
 
 .user-message{
-    padding-right: 20px;
-    color:#000000;
+    color:#FFFFFF;
     font-weight: bold;
 }
 
@@ -53,8 +52,9 @@ header.header .second-message span:after {
     content: '▼';
     font-size: .7em;
     margin-left: -4px;
-    color: #000000;
+    color: #FFFFFF;
     font-weight: bold;
+    padding-right: 35px;
   }
 .user-info{
     position: relative;
@@ -68,7 +68,7 @@ header.header .second-message span:after {
     display: none;
     position: absolute;
     top: 58px;
-    right: 143px;
+    right: 157px;
     border-left: 1px solid #d8d8d8;
     border-right: 1px solid #d8d8d8;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
