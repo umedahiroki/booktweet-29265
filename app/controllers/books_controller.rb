@@ -1,4 +1,7 @@
 class BooksController < ApplicationController
+    before_action :move_to_index, except: [:index, :show]
+    before_action :set_item, only: [:show, :edit,:update,:destroy]
+
     def index
         @books = Book.all.order("created_at DESC")
     end
@@ -17,15 +20,12 @@ class BooksController < ApplicationController
     end
 
     def show
-        @book = Book.find(params[:id])
     end
 
     def edit
-        @book = Book.find(params[:id])
     end
   
     def update    
-      @book = Book.find(params[:id])
       if @book.update(book_params)
         redirect_to root_path
       else
@@ -33,18 +33,28 @@ class BooksController < ApplicationController
       end
     end
 
-    def destroy 
-        @book = Book.find(params[:id])
+    def destroy
         if @book.destroy
         redirect_to root_path
         else
           render :show
         end
-      end
+    end
     
 
     private
     def book_params
         params.require(:book).permit(:name,:topic,:image,:text).merge(user_id: current_user.id)
+    end
+
+    def set_item
+        @book = Book.find(params[:id])
+    end
+
+
+    def move_to_index
+        unless user_signed_in?
+          redirect_to action: :index
+        end
     end
 end
