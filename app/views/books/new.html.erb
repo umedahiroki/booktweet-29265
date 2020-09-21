@@ -2,7 +2,7 @@
   <div class="container">
     <h3>新規投稿画面</h3>
     <%= form_with(model: @book, local: true) do |form| %>
-      <%= form.text_field :name, placeholder: "book name" %>
+      <%= form.text_field :name, placeholder: "Book name" %>
       <%= form.text_field :topic, placeholder: "Sub title" %>
       <%= form.text_field :image, placeholder: "Image-url" %>
       <%= form.text_area :text, placeholder: "text" %>
