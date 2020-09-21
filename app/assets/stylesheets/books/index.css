@@ -1,0 +1,42 @@
+.contents-row{
+    height: 100vh;
+}
+
+.contet-middle{
+    display: flex;
+    border-bottom: 2px solid #efefef;
+    padding: 10px 20px;
+}
+
+.book-img{
+   border: 1px solid #efefef; 
+}
+
+.book-name{
+    font-weight: bold;
+    font-size: 16px;
+    color:#000000 ;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+
+.topic-name{
+    font-weight: bold;
+    font-size: 13px;
+    color:#777777 ;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+
+
+.name{
+    font-weight: bold;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 21px;
+}
+
+.user-name{
+    border-bottom: 1px solid #000000 ;
+    color: #000000 ;
+}

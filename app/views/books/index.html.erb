@@ -1,0 +1,18 @@
+<div class="contents-row">
+  <% @books.each do |book| %>
+   <div class="contet-middle">
+    <div class="book-image">
+    <%= image_tag book.image, class: "book-img", :size => '100x100' %>
+    </div>
+    <div class="book-info">
+      <p class="book-name"><%= book.name %></p>
+      <p class="topic-name"><%= book.topic %></p>
+      <div class="name">
+      <a class="user-name" href="/users/<%= book.user.id %>">
+          <span>投稿者:</span><%= book.user.nicknmame %>
+      </a>
+      </div>
+    </div>
+   </div>
+  <% end %>
+</div>

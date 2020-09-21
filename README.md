@@ -50,6 +50,7 @@ Things you may want to cover:
 | name              | string    | null: false                                |
 | image             | text      | null: false                                |
 | text              | text      | null: false                                |
+| topic             | string    | null: false                                |
 | user              | reference | null: false null: false, foreign_key: true |
 
 ### Association
