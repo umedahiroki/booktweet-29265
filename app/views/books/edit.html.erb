@@ -1,0 +1,31 @@
+<div class="contents-post">
+  <div class="container">
+  
+    <h3 class="new-title">編集画面</h3>
+    
+    <%= form_with(model: @book, local: true) do |form| %>
+
+      <div class="form-name">
+      <%= form.text_field :name, placeholder: "Book name",size: "70" ,class:"name-box"%>
+      </div>
+
+      <div class="form-title">
+      <%= form.text_field :topic, placeholder: "Sub title",size: "70",class:"title-box" %>
+      </div>
+      
+      <div class="form-url">
+      <%= form.text_field :image, placeholder: "Image-url",size: "70" ,class:"url-box"%>
+      </div>
+      
+      <div class="form-text">
+      <%= form.text_area :text, placeholder: "text",size: "70x15",class:"text-box" %>
+      </div>
+      
+      <div class="form-send">
+      <%= form.submit "編集",class:"submit-box"%>
+      </div>
+  
+    <% end %>
+  
+  </div>
+</div>
