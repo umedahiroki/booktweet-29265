@@ -1,0 +1,78 @@
+.contents-post {
+    height: 100vh;
+  }
+  
+.new-title{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #efefef;
+    font-size: 32px;
+}
+
+.form-name{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 18px 0;
+}
+
+.name-box{
+    border: 2px solid #00BFFF;
+    height: 36px;
+    border-radius: 5px;
+}
+
+.form-title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 18px;
+}
+
+.title-box{
+    border: 2px solid #00BFFF;
+    height: 36px;
+    border-radius: 5px;
+}
+
+.form-url{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 18px;
+}
+
+.url-box{
+    border: 2px solid #00BFFF;
+    height: 36px;
+    border-radius: 5px;
+}
+
+
+.form-text{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 18px;
+}
+
+.text-box{
+    border: 2px solid #00BFFF;
+    border-radius: 5px;
+}
+
+
+.form-send{
+    display: flex;
+    justify-content: center;
+}
+
+.submit-box{
+    background-color: #00BFFF;   
+    border: 1px solid #efefef; 
+    color:#FFFFFF ;
+    font-weight: bold;
+    height: 50px;
+    width: 165px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+

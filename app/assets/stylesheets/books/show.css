@@ -45,11 +45,49 @@
 
 .text-title{
     font-weight: bold;
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .text-name{
-    font-weight: bold;
     font-size: 16px;
     padding-top: 16px;
+}
+
+.select-btn{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.edit-btn{
+    margin-right: 25px;
+    background-color: #00BFFF;   
+    border: 1px solid #efefef; 
+    color:#FFFFFF ;
+    font-weight: bold;
+    height: 50px;
+    width: 80px;
+    font-size: 25px;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+.book-red-btn{
+    color:#FFFFFF ;
+}
+
+.delete-btn{
+    background-color:#FF0000;   
+    border: 1px solid #efefef; 
+    font-weight: bold;
+    height: 50px;
+    width: 80px;
+    font-size: 25px;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+.book-destroy{
+    color:#FFFFFF ;
 }

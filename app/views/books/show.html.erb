@@ -15,14 +15,18 @@
     </div>
     <div class="book-text">
     <div class="text-title">
-    レビュー
+    Tweet
     </div>
-    <p class="text-name"><%= @book.text %></p>
+    <p class="text-name"><%= simple_format(@book.text) %></p>
     </div>
     <div class="select-btn">
     <% if user_signed_in? && current_user.id == @book.user_id %>
+    <div class="edit-btn">
     <%= link_to '編集', edit_book_path(@book.id), method: :get, class: "book-red-btn" %>
+    </div>
+    <div class="delete-btn">
     <%= link_to '削除', book_path(@book.id), method: :delete, class:'book-destroy' %>
+    </div>
     <% end %>
     </div>
 
