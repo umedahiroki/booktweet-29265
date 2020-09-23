@@ -8,7 +8,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom: 2px solid #efefef;
-    font-size: 32px;
+    font-size: 22px;
 }
 
 .form-name{
@@ -70,9 +70,9 @@
     border: 1px solid #efefef; 
     color:#FFFFFF ;
     font-weight: bold;
-    height: 50px;
+    height: 48px;
     width: 165px;
-    font-size: 25px;
+    font-size: 18px;
     border-radius: 10px;
 }
 
