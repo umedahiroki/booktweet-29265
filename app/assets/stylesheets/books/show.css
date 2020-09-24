@@ -5,7 +5,7 @@
 .top-message{
     display: flex;
     border-bottom: 2px solid #efefef;
-    padding: 10px 20px;
+    padding: 10px 50px;
 }
 
 .book-img{
@@ -35,17 +35,26 @@
     padding-top: 23px;
 }
 .user-name{
-    color: #000000 ;
+    color:#888;
 }
 
 .book-text{
-    padding-left: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 20px;
+}
+
+.header-message{
+    display: flex;
+    justify-content: space-between;
+    border-left: solid 6px #00BFFF;
+    background-color:#f4f4f4;
 }
 
 .text-title{
     font-weight: bold;
     font-size: 30px;
+    padding-left: 5px;
 }
 
 .text-name{
@@ -54,40 +63,22 @@
 }
 
 .select-btn{
-    padding-top: 20px;
     display: flex;
-    justify-content: center;
-    text-align: center;
+    align-items: center;
 }
 
 .edit-btn{
-    margin-right: 25px;
-    background-color: #00BFFF;   
-    border: 1px solid #efefef; 
-    color:#FFFFFF ;
-    font-weight: bold;
-    height: 50px;
-    width: 80px;
-    font-size: 25px;
-    border-radius: 10px;
-    padding-top: 5px;
+    padding-right: 15px;
 }
 
 .book-red-btn{
-    color:#FFFFFF ;
+    color: #000;
 }
 
 .delete-btn{
-    background-color:#FF0000;   
-    border: 1px solid #efefef; 
-    font-weight: bold;
-    height: 50px;
-    width: 80px;
-    font-size: 25px;
-    border-radius: 10px;
-    padding-top: 5px;
+    padding-right: 5px;
 }
 
 .book-destroy{
-    color:#FFFFFF ;
+    color: #000;
 }

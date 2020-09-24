@@ -8,13 +8,13 @@
     <div class="book-info">
       <p class="book-name"><%= book.name %></p>
       <p class="topic-name"><%= book.topic %></p>
-      <div class="name">
+    <% end %>
+    <div class="name">
       <a class="user-name" href="/users/<%= book.user.id %>">
-          <span>投稿者:</span><%= book.user.nicknmame %>
+          <span>投稿者：</span><%= book.user.nicknmame %>
       </a>
-      </div>
     </div>
-    <%end%>
+    </div>
    </div>
   <% end %>
 </div>
