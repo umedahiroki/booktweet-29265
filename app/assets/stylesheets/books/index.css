@@ -5,7 +5,7 @@
 .contet-middle{
     display: flex;
     border-bottom: 2px solid #efefef;
-    padding: 10px 20px;
+    padding: 10px 50px;
 }
 
 .book-img{
@@ -36,5 +36,5 @@
 }
 
 .user-name{
-    color: #000000 ;
+    color: #888; ;
 }

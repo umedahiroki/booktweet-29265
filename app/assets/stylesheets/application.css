@@ -29,7 +29,7 @@
 }
 
 .main-title{
-    padding-left: 20px;
+    padding-left: 50px;
 }
 
 .title-name{
@@ -102,7 +102,7 @@ header.header .second-message span:after {
 }
 
 .post{
-    margin-right: 20px;
+    margin-right: 50px;
     text-decoration: none;
     color: #FFFFFF;
     font-weight: bold;
@@ -117,7 +117,7 @@ header.header .second-message span:after {
 }
 
 .sign-box{
-    padding-right: 20px;
+    padding-right: 50px;
 }
 
 .log-in{
