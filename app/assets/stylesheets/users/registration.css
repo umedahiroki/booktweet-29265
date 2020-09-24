@@ -1,6 +1,8 @@
 .registration-main {
     display: flex;
     justify-content: center;
+    padding-top: 90.88px;
+
   }
   
   /* form-wrapは商品購入画面でも使用しています */

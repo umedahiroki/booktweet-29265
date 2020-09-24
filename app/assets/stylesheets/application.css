@@ -20,16 +20,21 @@
 
 .header{
     background-color: #00BFFF;
+    width: 100%;
+    position: fixed;
 }
 
 .header_bar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #00BFFF;
 }
 
 .main-title{
     padding-left: 50px;
+    letter-spacing: 0.10em
+
 }
 
 .title-name{
