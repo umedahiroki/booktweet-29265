@@ -11,7 +11,10 @@
     <% end %>
     <div class="name">
       <a class="user-name" href="/users/<%= book.user.id %>">
-          <span>投稿者：</span><%= book.user.nicknmame %>
+          <span>投稿者：<%= book.user.nicknmame %></span>
+          <% weeks = ["日","月","火","水","木","金","土"]%>
+          <% week = weeks[book.created_at.wday]%>
+          <span class="tweet-time"><%= book.created_at.strftime("%y20/%m/%d(#{week}):%H:%M")%></span>
       </a>
     </div>
     </div>

@@ -1,6 +1,6 @@
 .contents-row{
     height: 100vh;
-    padding-top: 90.88px;
+    padding-top: 95.88px;
     background-image: url('../images/img_picture.jpg');
     background-size: cover;
 }
@@ -9,11 +9,15 @@
     display: flex;
     border-bottom: 2px solid #efefef;
     padding: 10px 50px;
+    width: 100%;
 }
 
 .book-img{
    box-shadow: 4px 4px 10px rgba(0,0,0,.2);
+}
 
+.book-info{
+    width: 100%;
 }
 
 .book-name{
@@ -37,10 +41,15 @@
     font-size: 13px;
     padding-left: 20px;
     padding-top: 23px;
+    width: 100%;
 }
 
 .user-name{
-    color: #888; ;
+    color: #888; 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
 }
 
 

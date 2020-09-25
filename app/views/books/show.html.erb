@@ -1,23 +1,23 @@
 <div class="book-explain-box">
    <div class="top-message">
     <div class="book-image">
-     <%= image_tag @book.image, class: "book-img", :size => '100x100' %>
+     <%= image_tag @book.image, class: "book-img", :size => '150x200' %>
     </div>
     <div class="book-info">
       <p class="book-name"><%= @book.name %></p>
       <p class="topic-name"><%= @book.topic %></p>
       <% if user_signed_in?%>
       <% unless current_user.id == @book.user_id%>
-      <div class="name">
-      <a class="user-name" href="/users/<%= @book.user.id %>">
-          <span>投稿者：</span><%= @book.user.nicknmame %>
+      <div class="user-total">
+      <a class="name-total" href="/users/<%= @book.user.id %>">
+          <span>投稿者：<%= @book.user.nicknmame %></span>
       </a>
       </div>
       <%end%>
       <%else%>
-      <div class="name">
-      <a class="user-name" href="/users/<%= @book.user.id %>">
-          <span>投稿者：</span><%= @book.user.nicknmame %>
+      <div class="user-total">
+      <a class="name-total" href="/users/<%= @book.user.id %>">
+          <span>投稿者：<%= @book.user.nicknmame %></span>
       </a>
       </div>
       <%end%>

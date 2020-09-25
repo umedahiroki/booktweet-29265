@@ -1,6 +1,6 @@
 .book-explain-box{
     height: 100vh;
-    padding-top: 90.88px;
+    padding-top: 95.88px;
 }
 
 .top-message{
@@ -29,13 +29,12 @@
     padding-top: 8px;
 }
 
-.name{
+.user-total{
     font-weight: bold;
-    font-size: 13px;
+    font-size: 13px;    
     padding-left: 20px;
-    padding-top: 23px;
 }
-.user-name{
+.name-total{
     color:#888;
 }
 
