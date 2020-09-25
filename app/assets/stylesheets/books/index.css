@@ -1,6 +1,8 @@
 .contents-row{
     height: 100vh;
     padding-top: 90.88px;
+    background-image: url('../images/img_picture.jpg');
+    background-size: cover;
 }
 
 .contet-middle{
@@ -10,7 +12,8 @@
 }
 
 .book-img{
-   border: 1px solid #efefef; 
+   box-shadow: 4px 4px 10px rgba(0,0,0,.2);
+
 }
 
 .book-name{
@@ -39,3 +42,6 @@
 .user-name{
     color: #888; ;
 }
+
+
+
