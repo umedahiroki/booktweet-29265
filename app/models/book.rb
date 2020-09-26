@@ -4,9 +4,9 @@ class Book < ApplicationRecord
 
     def self.search(search)
         if search != ""
-          Book.where("text LIKE ?", "%#{search}%")
+          Book.where('text LIKE(?)', "%#{search}%")
         else
-          Book.all.order("created_at DESC")
+          Book.all
         end
     end
 end

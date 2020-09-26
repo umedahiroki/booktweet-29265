@@ -1,12 +1,11 @@
 .book-explain-box{
     height: 100vh;
-    padding-top: 95.88px;
 }
 
 .top-message{
     display: flex;
     border-bottom: 2px solid #efefef;
-    padding: 12.4px 50px;
+    padding: 20.4px 50px;
 }
 
 .book-img{

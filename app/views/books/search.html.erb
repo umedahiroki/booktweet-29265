@@ -1,3 +1,8 @@
+<%= form_with(url: search_books_path, local: true, method: :get, class: "search-form") do |form| %>
+  <%= form.text_field :keyword, placeholder: "投稿を検索する",size: "50", class: "search-input" %>
+  <%= form.submit "検索", class: "search-btn" %>
+<% end %>
+
 <div class="contents-row">
   <% @books.each do |book| %>
    <div class="contet-middle">
@@ -8,15 +13,16 @@
     <div class="book-info">
       <p class="book-name"><%= book.name %></p>
       <p class="topic-name"><%= book.topic %></p>
-      <div class="name">
+    <% end %>
+    <div class="name">
       <a class="user-name" href="/users/<%= book.user.id %>">
+          <span>投稿者：<%= book.user.nicknmame %></span>
           <% weeks = ["日","月","火","水","木","金","土"]%>
           <% week = weeks[book.created_at.wday]%>
           <span class="tweet-time"><%= book.created_at.strftime("%y20/%m/%d(#{week}):%H:%M")%></span>
       </a>
-      </div>
     </div>
-    <%end%>
+    </div>
    </div>
   <% end %>
 </div>

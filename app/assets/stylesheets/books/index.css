@@ -1,9 +1,25 @@
-.contents-row{
-    height: 100vh;
-    padding-top: 95.88px;
-    background-size: cover;
+.search-form{
+    padding-top: 12.4px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #efefef;
+    padding-bottom: 12.4px;
 }
 
+.search-input{
+    height: 30px;
+}
+
+.search-btn{
+    margin-left: 10px;
+}
+
+.contents-row{
+    height: 100vh;
+    background-size: cover;
+}
 .contet-middle{
     display: flex;
     border-bottom: 2px solid #efefef;
@@ -44,7 +60,7 @@
 }
 
 .user-name{
-    color: #777777;
+    color: #888; 
     display: flex;
     justify-content: space-between;
     width: 100%;
