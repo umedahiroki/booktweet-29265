@@ -6,19 +6,19 @@
     <%= form_with(model: @book, local: true) do |form| %>
 
       <div class="form-name">
-      <%= form.text_field :name, placeholder: "Book name",size: "70" ,class:"name-box"%>
+      <%= form.text_field :name, placeholder: "書籍名",size: "70" ,class:"name-box"%>
       </div>
 
       <div class="form-title">
-      <%= form.text_field :topic, placeholder: "Sub title",size: "70",class:"title-box" %>
+      <%= form.text_field :topic, placeholder: "自分なりのサブタイトルをつけてみましょう",size: "70",class:"title-box" %>
       </div>
       
       <div class="form-url">
-      <%= form.text_field :image, placeholder: "Image-url",size: "70" ,class:"url-box"%>
+      <%= form.text_field :image, placeholder: "画像URL",size: "70" ,class:"url-box"%>
       </div>
       
       <div class="form-text">
-      <%= form.text_area :text, placeholder: "text",size: "70x15",class:"text-box" %>
+      <%= form.text_area :text, placeholder: "本文",size: "70x15",class:"text-box" %>
       </div>
       
       <div class="form-send">

@@ -6,7 +6,7 @@
 .top-message{
     display: flex;
     border-bottom: 2px solid #efefef;
-    padding: 10px 50px;
+    padding: 12.4px 50px;
 }
 
 .book-img{
@@ -24,9 +24,9 @@
 .topic-name{
     font-weight: bold;
     font-size: 13px;
-    color:#00BFFF ;
     padding-left: 20px;
     padding-top: 8px;
+    color: #777777;
 }
 
 .user-total{
@@ -35,7 +35,7 @@
     padding-left: 20px;
 }
 .name-total{
-    color:#888;
+    color: #777777;
 }
 
 .book-text{
@@ -47,7 +47,7 @@
 .header-message{
     display: flex;
     justify-content: space-between;
-    border-left: solid 6px #00BFFF;
+    border-left: solid 10px #1C75BC;
     background-color:#f4f4f4;
 }
 

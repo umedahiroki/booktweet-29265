@@ -19,7 +19,7 @@
 }
 
 .name-box{
-    border: 2px solid #00BFFF;
+    border: 2px solid #1C75BC;
     height: 36px;
     border-radius: 5px;
 }
@@ -31,7 +31,7 @@
 }
 
 .title-box{
-    border: 2px solid #00BFFF;
+    border: 2px solid #1C75BC;
     height: 36px;
     border-radius: 5px;
 }
@@ -43,7 +43,7 @@
 }
 
 .url-box{
-    border: 2px solid #00BFFF;
+    border: 2px solid #1C75BC;
     height: 36px;
     border-radius: 5px;
 }
@@ -56,7 +56,7 @@
 }
 
 .text-box{
-    border: 2px solid #00BFFF;
+    border: 2px solid #1C75BC;
     border-radius: 5px;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .submit-box{
-    background-color: #00BFFF;   
+    background-color: #1C75BC;   
     border: 1px solid #efefef; 
     color:#FFFFFF ;
     font-weight: bold;

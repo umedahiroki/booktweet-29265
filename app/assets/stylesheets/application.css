@@ -18,10 +18,11 @@
     box-sizing: border-box;
 }
 
+
 .header{
-    background-color: #00BFFF;
+    background-color:#1C75BC;
+    border-bottom: 2px solid #d8d8d8;
     width: 100%;
-    position: fixed;
 }
 
 .header_bar{

@@ -1,5 +1,5 @@
 class BooksController < ApplicationController
-    before_action :move_to_index, except: [:index, :show]
+    before_action :move_to_index, except: [:index, :show, :search]
     before_action :set_item, only: [:show, :edit,:update,:destroy]
 
     def index
@@ -39,6 +39,10 @@ class BooksController < ApplicationController
         else
           render :show
         end
+    end
+
+    def search
+      @books = Book.search(params[:keyword])
     end
     
 
