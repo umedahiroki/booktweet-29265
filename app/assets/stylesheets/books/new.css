@@ -33,18 +33,21 @@
     border: 2px solid #1C75BC;
     height: 36px;
     border-radius: 5px;
+    outline: 0;    
 }
 
 .form-url{
     display: flex;
     justify-content: center;
     padding-bottom: 18px;
+    outline: 0;    
 }
 
 .url-box{
     border: 2px solid #1C75BC;
     height: 36px;
     border-radius: 5px;
+    outline: 0;    
 }
 
 
@@ -52,11 +55,13 @@
     display: flex;
     justify-content: center;
     padding-bottom: 18px;
+    outline: 0;    
 }
 
 .text-box{
     border: 2px solid #1C75BC;
     border-radius: 5px;
+    outline: 0;    
 }
 
 
@@ -74,5 +79,6 @@
     width: 165px;
     font-size: 18px;
     border-radius: 10px;
+    outline: 0;    
 }
 

@@ -130,7 +130,6 @@
     width: 50%;
     margin: 0 auto;
     padding-top: 20px;
-
   }
   
   .register-red-btn {
@@ -141,7 +140,7 @@
     line-height: 48px;
     font-size: 18px;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 5px;
     font-weight: bold;
   }
   
