@@ -10,10 +10,18 @@
 
 .search-input{
     height: 30px;
+    border-radius: 5px 0 0 5px; 
+    border: 2px solid #1C75BC;
+    outline: 0;    
 }
 
 .search-btn{
-    margin-left: 10px;
+    background-color:#1C75BC ;
+    color:#FFFFFF ;
+    font-weight: bold;
+    border-radius: 0 5px 5px 0; 
+    border: 2px solid #1C75BC;
+    padding-left: 3px;
 }
 
 .contents-row{
@@ -35,7 +43,6 @@
     box-shadow: 0 15px 30px -5px rgba(0,0,0,.15), 0 0 5px rgba(0,0,0,.1);
 }
 
-
 .book-img{
    box-shadow: 4px 4px 10px rgba(0,0,0,.2);
 }
@@ -55,7 +62,7 @@
 .topic-name{
     font-weight: bold;
     font-size: 13px;
-    color: #777777;
+    color: #1C75BC;
     padding-left: 20px;
     padding-top: 8px;
 }
@@ -69,7 +76,7 @@
 }
 
 .user-name{
-    color: #888; 
+    color:  #777777; 
     display: flex;
     justify-content: space-between;
     width: 100%;
