@@ -20,12 +20,21 @@
     height: 100vh;
     background-size: cover;
 }
+
 .contet-middle{
     display: flex;
     border-bottom: 2px solid #efefef;
     padding: 12.4px 50px;
     width: 100%;
+    transition: .3s;
 }
+
+.contet-middle:hover{
+    background-color: #efefef ;
+    transform: translateY(-4px);
+    box-shadow: 0 15px 30px -5px rgba(0,0,0,.15), 0 0 5px rgba(0,0,0,.1);
+}
+
 
 .book-img{
    box-shadow: 4px 4px 10px rgba(0,0,0,.2);
