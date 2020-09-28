@@ -1,11 +1,13 @@
 <div class="book-explain-box">
    <div class="top-message">
     <div class="book-image">
-     <%= image_tag @book.image, class: "book-img", :size => '150x200' %>
+     <%= image_tag @book.image, class: "book-img", :size => '165x190' %>
     </div>
     <div class="book-info">
+      <div class="sample">
       <p class="book-name"><%= @book.name %></p>
       <p class="topic-name"><%= @book.topic %></p>
+      </div>
       <% if user_signed_in?%>
       <% unless current_user.id == @book.user_id%>
       <div class="user-total">
@@ -29,7 +31,7 @@
     <div class="text-header">
     <div class="header-message">
     <div class="text-title">
-    本文
+    Review
     </div>
 
     <div class="select-btn">
@@ -43,7 +45,7 @@
     <% end %>
     </div>
     </div>
-    <p class="text-name"><%= simple_format(@book.text) %></p>
+    <p class="text-name"><%=safe_join(@book.text.split("\n"),tag(:br)) %></p>
     </div>
     
     </div>

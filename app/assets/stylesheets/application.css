@@ -34,7 +34,6 @@
 .main-title{
     padding-left: 50px;
     letter-spacing: 0.10em
-
 }
 
 .title-name{
@@ -60,7 +59,8 @@ header.header .second-message span:after {
     color: #FFFFFF;
     font-weight: bold;
     padding-right: 35px;
-  }
+}
+
 .user-info{
     position: relative;
 }
@@ -79,14 +79,14 @@ header.header .second-message span:after {
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     background-color: #f0f0f0;
-  }
+    }
 
   header.header .second-message ul li a {
     display: block;
     padding: 8px 15px;
     text-align: left;
     border-bottom: 1px solid #d8d8d8;
-  }  
+    }  
 
 
 .my-page{
@@ -115,6 +115,7 @@ header.header .second-message span:after {
     text-align: center;
     padding: 8px 15px;
     display: inline-block;
+    border-radius: 5px;
 }
 
 .log-box{
@@ -133,6 +134,7 @@ header.header .second-message span:after {
     text-align: center;
     padding: 8px 15px;
     display: inline-block;
+    border-radius: 5px;
 }
 
 .sign-up{
@@ -143,4 +145,5 @@ header.header .second-message span:after {
     text-align: center;
     padding: 8px 15px;
     display: inline-block;
+    border-radius: 5px;
 }

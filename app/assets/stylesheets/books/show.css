@@ -28,6 +28,7 @@
     font-weight: bold;
     font-size: 13px;    
     padding-left: 20px;
+    padding-top: 8px;
 }
 .name-total{
     color: #777777;
@@ -77,3 +78,4 @@
 .book-destroy{
     color: #000;
 }
+
