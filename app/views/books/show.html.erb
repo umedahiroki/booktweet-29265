@@ -1,3 +1,7 @@
+<%= form_with(url: search_books_path, local: true, method: :get, class: "search-form") do |form| %>
+  <%= form.text_field :keyword, placeholder: "キーワードを入力",size: "35", class: "search-input" %>
+  <%= form.submit "検索",class: "search-btn" %>
+<% end %>
 <div class="book-explain-box">
    <div class="top-message">
     <div class="book-image">
@@ -8,21 +12,6 @@
       <p class="book-name"><%= @book.name %></p>
       <p class="topic-name"><%= @book.topic %></p>
       </div>
-      <% if user_signed_in?%>
-      <% unless current_user.id == @book.user_id%>
-      <div class="user-total">
-      <a class="name-total" href="/users/<%= @book.user.id %>">
-          <span>投稿者：<%= @book.user.nicknmame %></span>
-      </a>
-      </div>
-      <%end%>
-      <%else%>
-      <div class="user-total">
-      <a class="name-total" href="/users/<%= @book.user.id %>">
-          <span>投稿者：<%= @book.user.nicknmame %></span>
-      </a>
-      </div>
-      <%end%>
     </div>
     </div>
 
@@ -42,6 +31,13 @@
     <div class="delete-btn">
     <%= link_to '削除', book_path(@book.id), method: :delete, class:'book-destroy' %>
     </div>
+    <%else%>
+      <div class="review-user">
+      <a class="review-total" href="/users/<%= @book.user.id %>">
+        <span class="left-title">by</span>
+        <span class="right-title"><%= @book.user.nicknmame %></span>
+      </a>
+      </div>
     <% end %>
     </div>
     </div>
