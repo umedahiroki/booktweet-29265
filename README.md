@@ -65,6 +65,7 @@ Things you may want to cover:
 | ------- | ---------- | ------------------------------ |                         
 | user    | references | null: false, foreign_key: true |
 | book    | references | null: false, foreign_key: true |
+| text    | text       | null: false                    |
 
 ### Association
 

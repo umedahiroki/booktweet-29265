@@ -38,6 +38,8 @@
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 20px;
+    border-bottom: 2px solid #efefef;
+    padding-bottom: 20px;
 }
 
 .header-message{
@@ -93,3 +95,84 @@
     font-size: 18px;
     color: #000;
 }
+
+.container-comment{
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.comment-king{
+    width: 100%;
+    background-color: #f4f4f4;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-left: solid 10px #1C75BC;
+}
+
+.title-king{
+    padding-left: 5px;
+}
+
+.comment-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.comment-second{
+    width: 65%;
+    border: 2px solid #1C75BC;
+    border-radius: 5px;
+    outline: 0;  
+    height: 100px;  
+}
+
+.comment-sendbtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.comment-forword{
+    border: 2px solid #1C75BC;
+    border-radius: 16px;
+    background-color: #1C75BC;
+    font-weight: bold;
+    color: #FFFFFF;
+    outline: 0;  
+    width: 50%;
+    height: 48px;
+}
+
+.comments{
+    width: 100%;
+}
+
+.main-essance{
+    width: 100%;
+    padding-bottom: 8px;
+    display: flex;
+}
+
+.comment-title{
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.comment-main{
+    padding-top: 10px;
+}
+
+.comment-orner{
+    color: #1C75BC;
+    font-weight: bold;
+}
+

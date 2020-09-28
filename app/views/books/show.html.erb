@@ -19,6 +19,7 @@
 
     <div class="text-header">
     <div class="header-message">
+   
     <div class="text-title">
     Review
     </div>
@@ -43,7 +44,53 @@
     </div>
     <p class="text-name"><%=safe_join(@book.text.split("\n"),tag(:br)) %></p>
     </div>
-    
     </div>
 
+    <div class="container-comment">
+    <div class="comment-king">
+    <div class="title-king">
+    Comment
+    </div>
+    </div>
+
+    <% if current_user %>
+      <%= form_with(model: [@book, @comment], local: true) do |form| %>
+        <div class= "comment-box">
+        <%= form.text_area :text, placeholder: "コメントする",class:"comment-second" %>
+        </div>
+        <div class="comment-sendbtn">
+        <%= form.submit "SEND",class:"comment-forword" %>
+        </div>
+      <% end %>
+    <% else %>
+      <strong><p>※※※ コメントの投稿には新規登録/ログインが必要です ※※※</p></strong>
+    <% end %>
+       <div class="comments">
+       <div class="comment-title">
+       ＜コメント一覧＞
+      </div>
+      
+      <div class="comment-main">
+      <% if @comments %>
+        <% @comments.each do |comment| %>
+           <div class="main-essance">
+            <div class="second-block">
+            <span class="comment-username">
+            <%= link_to comment.user.nicknmame, "/users/#{comment.user_id}",class:'comment-orner' %>
+            </span>
+            <span class="side-message">
+            ：
+            </span>
+            </div>
+            
+            <div class="comment-context">
+            <%= safe_join(comment.text.split("\n"),tag(:br))%>
+            </div>
+            </div>
+        <% end %>
+      <% end %>
+      </div>
+
+    </div>
+</div>
 </div>
