@@ -79,3 +79,17 @@
     color: #000;
 }
 
+.review-user{
+    padding-right: 15px; 
+}
+
+.left-title{
+    color: #000;
+    font-size: 14px;
+    padding-right: 5px;
+}
+
+.right-title{
+    font-size: 18px;
+    color: #000;
+}
