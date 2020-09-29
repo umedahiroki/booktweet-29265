@@ -122,43 +122,43 @@ Things you may want to cover:
 
 
 ◆ログイン  
-![demo](https://gyazo.com/b37e98e93bc10559dfac6973c34bc75a)  
+[GIF](https://gyazo.com/b37e98e93bc10559dfac6973c34bc75a)  
   
 ◆投稿機能      
 画像①  
-![demo](https://gyazo.com/9a3fd9fdbcbdd2650a1bb42f6ca0dc67)  
+[GIF](https://gyazo.com/9a3fd9fdbcbdd2650a1bb42f6ca0dc67)  
   
 画像②  
-![demo](https://gyazo.com/e9603c93be5f0c126cdbfb9388f26040)  
+[GIF](https://gyazo.com/e9603c93be5f0c126cdbfb9388f26040)  
   
 ◆投稿詳細画面表示機能    
-![demo](https://gyazo.com/3158807fdb6a2165800210399c2fc13e)  
+[GIF](https://gyazo.com/3158807fdb6a2165800210399c2fc13e)  
     
 ◆マイページ表示機能  
 画像①  
-![demo](https://gyazo.com/319cb84e38c74550825bfbeb05819ae4)  
+[GIF](https://gyazo.com/319cb84e38c74550825bfbeb05819ae4)  
   
 画像②  
-![demo](https://gyazo.com/b949ddaa5e047decd48492f628cce418)  
+[GIF](https://gyazo.com/b949ddaa5e047decd48492f628cce418)  
   
 ◆投稿編集機能  
 画像①  
-![demo](https://gyazo.com/6bead870c057b1e883a7d16297ce9f05)  
+[GIF](https://gyazo.com/6bead870c057b1e883a7d16297ce9f05)  
   
 画像②  
-![demo](https://gyazo.com/6bead870c057b1e883a7d16297ce9f05)  
+[GIF](https://gyazo.com/6bead870c057b1e883a7d16297ce9f05)  
 
 画像③  
-![demo](https://gyazo.com/478d81e1904cf843bab2632b2931ba0a)  
+[GIF](https://gyazo.com/478d81e1904cf843bab2632b2931ba0a)  
     
 ◆投稿削除機能  
-![demo](https://gyazo.com/fa04c1d71c2aee757ddfc1bc16426226)  
+[GIF](https://gyazo.com/fa04c1d71c2aee757ddfc1bc16426226)  
   
 ◆投稿検索機能  
-![demo](https://gyazo.com/914e916e2a7f5589302a8efee354fc02)  
+[GIF](https://gyazo.com/914e916e2a7f5589302a8efee354fc02)  
     
 ◆コメント機能    
-![demo](https://gyazo.com/aaeaf25ac353ad1bc9926e489723daec)  
+[GIF](https://gyazo.com/aaeaf25ac353ad1bc9926e489723daec)  
     
   
 ## ●実装予定の機能
