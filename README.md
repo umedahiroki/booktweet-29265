@@ -117,8 +117,9 @@ Things you may want to cover:
 * コメント機能
 
 ## ●実装した機能についてのGIFと説明
-◆新規登録  
-![demo](https://gyazo.com/b717f616c93a83d11f5f556f7e074729)  
+◆新規登録    
+[GIF](https://gyazo.com/b717f616c93a83d11f5f556f7e074729)
+
 
 ◆ログイン  
 ![demo](https://gyazo.com/b37e98e93bc10559dfac6973c34bc75a)  
