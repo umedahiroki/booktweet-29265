@@ -129,7 +129,7 @@
 <img src="https://gyazo.com/914e916e2a7f5589302a8efee354fc02/raw" width="200">   
     
 ◆コメント機能  
-<img src="https://gyazo.com/aaeaf25ac353ad1bc9926e489723daec/raw" width="200"  
+<img src="https://gyazo.com/aaeaf25ac353ad1bc9926e489723daec/raw" width="200">
 
 ## ●実装予定の機能
 * コメントを非同期で投稿できる
