@@ -145,10 +145,7 @@ Things you may want to cover:
 <img src="https://gyazo.com/6bead870c057b1e883a7d16297ce9f05/raw" width="200">         
   
 画像②  
-<img src="https://gyazo.com/6bead870c057b1e883a7d16297ce9f05/raw" width="200">         
-
-画像③  
-<img src="https://gyazo.com/478d81e1904cf843bab2632b2931ba0a/raw" width="200">        
+<img src="https://gyazo.com/478d81e1904cf843bab2632b2931ba0a/raw" width="200">         
 
 ◆投稿削除機能  
 <img src="https://gyazo.com/fa04c1d71c2aee757ddfc1bc16426226/raw" width="200">   
