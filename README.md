@@ -118,7 +118,7 @@ Things you may want to cover:
 
 ## ●実装した機能についてのGIFと説明
 ◆新規登録    
-<img src="https://gyazo.com/b717f616c93a83d11f5f556f7e074729" width="200">
+<img src="https://gyazo.com/b717f616c93a83d11f5f556f7e074729/raw" width="200">
 
 
 ![demo](https://gyazo.com/b717f616c93a83d11f5f556f7e074729/raw)
