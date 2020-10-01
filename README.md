@@ -120,7 +120,7 @@ Things you may want to cover:
 ◆新規登録    
 ![demo](https://gyazo.com/b717f616c93a83d11f5f556f7e074729/raw)
 
-<img src="https://gyazo.com/b717f616c93a83d11f5f556f7e074729" width="400">
+<img src="https://gyazo.com/b717f616c93a83d11f5f556f7e074729" width="200">
 
 ◆ログイン  
 [GIF](https://gyazo.com/b37e98e93bc10559dfac6973c34bc75a)  
