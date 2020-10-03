@@ -3,9 +3,20 @@
 }
 
 .top-message{
-    display: flex;
-    border-bottom: 2px solid #efefef;
     padding: 20.4px 50px;
+    width: 100%;
+    background-color:#f4f4f4;
+}
+
+.sample-message{
+    display: flex;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
 }
 
 .book-name{
@@ -35,18 +46,25 @@
 }
 
 .book-text{
+    background-color: #f4f4f4;
+    width: 100%;
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 20px;
-    border-bottom: 2px solid #efefef;
     padding-bottom: 20px;
+}
+
+.text-header{
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .header-message{
     display: flex;
     justify-content: space-between;
-    border-left: solid 10px #1C75BC;
-    background-color:#f4f4f4;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #1C75BC;
 }
 
 .text-title{
@@ -100,19 +118,26 @@
     width: 100%;
     padding-right: 50px;
     padding-left: 50px;
-    padding-top: 20px;
+    background-color: #f4f4f4;
+}
+
+.sample-comment{
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .comment-king{
     width: 100%;
-    background-color: #f4f4f4;
+    background-color: #FFFFFF;
     height: 45px;
     display: flex;
     align-items: center;
     font-weight: bold;
     font-size: 30px;
     margin-bottom: 20px;
-    border-left: solid 10px #1C75BC;
+    border-bottom: 2px solid #1C75BC;
 }
 
 .title-king{
