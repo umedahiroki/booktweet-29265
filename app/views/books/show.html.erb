@@ -56,10 +56,10 @@
     <% if current_user %>
       <%= form_with(model: [@book, @comment], local: true) do |form| %>
         <div class= "comment-box">
-        <%= form.text_area :text, placeholder: "コメントする",class:"comment-second" %>
+        <%= form.text_area :text, placeholder: "コメントする",class:"comment-second",id: "form-date"%>
         </div>
         <div class="comment-sendbtn">
-        <%= form.submit "SEND",class:"comment-forword" %>
+        <%= form.submit "SEND",class:"comment-forword",id: "submit" %>
         </div>
       <% end %>
     <% else %>
