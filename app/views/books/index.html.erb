@@ -1,9 +1,12 @@
+<div class= "serach-sample">
 <%= form_with(url: search_books_path, local: true, method: :get, class: "search-form") do |form| %>
   <%= form.text_field :keyword, placeholder: "キーワードを入力",size: "35", class: "search-input" %>
   <%= form.submit "検索",class: "search-btn" %>
 <% end %>
+</div>
 <div class="contents-row" >
   <% @books.each do |book| %>
+    <div class="sample-middle">
    <div class="contet-middle" id="context">
     <%= link_to  book_path(book.id),method: :get do %>
     <div class="book-image">
@@ -20,6 +23,7 @@
           <% week = weeks[book.created_at.wday]%>
           <span class="tweet-time"><%= book.created_at.strftime("%y20/%m/%d(#{week}):%H:%M")%></span>
       </a>
+    </div>
     </div>
     </div>
    </div>

@@ -29,6 +29,7 @@
     background-size: cover;
 }
 
+
 .contet-middle{
     display: flex;
     border-bottom: 2px solid #efefef;
@@ -82,4 +83,3 @@
     justify-content: space-between;
     width: 100%;
 }
-

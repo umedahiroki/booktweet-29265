@@ -3,7 +3,9 @@
 }
 
 .top-message{
-    padding: 20.4px 50px;
+    padding-top: 20.4px;
+    padding-left: 50px;
+    padding-right: 50px;
     width: 100%;
     background-color:#f4f4f4;
 }
@@ -15,7 +17,6 @@
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 7px;
-    border-radius: 5px;
     background-color: #FFFFFF;
 }
 
@@ -57,7 +58,6 @@
     background-color: #FFFFFF;
     width: 100%;
     padding: 10px;
-    border-radius: 5px;
 }
 
 .header-message{
@@ -70,7 +70,7 @@
 .text-title{
     font-weight: bold;
     font-size: 30px;
-    padding-left: 5px;
+
 }
 
 .text-name{
@@ -91,16 +91,8 @@
     color: #000;
 }
 
-.delete-btn{
-    padding-right: 5px;
-}
-
 .book-destroy{
     color: #000;
-}
-
-.review-user{
-    padding-right: 15px; 
 }
 
 .left-title{
@@ -124,7 +116,6 @@
 .sample-comment{
     width: 100%;
     background-color: #FFFFFF;
-    border-radius: 5px;
     padding: 10px;
 }
 
@@ -148,21 +139,22 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-top: 10px;
 }
 
 .comment-second{
-    width: 65%;
+    width: 100%;
     border: 2px solid #1C75BC;
     border-radius: 5px;
     outline: 0;  
-    height: 100px;  
+    height: 60px; 
 }
 
 .comment-sendbtn{
-    width: 100%;
     display: flex;
     justify-content: center;
     padding-top: 15px;
+    width: 100%;
 }
 
 .comment-forword{
@@ -172,8 +164,8 @@
     font-weight: bold;
     color: #FFFFFF;
     outline: 0;  
-    width: 50%;
-    height: 48px;
+    height: 40px;
+    width: 100%;
 }
 
 .comments{

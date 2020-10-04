@@ -1,7 +1,9 @@
+<div class= "serach-sample">
 <%= form_with(url: search_books_path, local: true, method: :get, class: "search-form") do |form| %>
   <%= form.text_field :keyword, placeholder: "キーワードを入力",size: "35", class: "search-input" %>
   <%= form.submit "検索",class: "search-btn" %>
 <% end %>
+</div>
 <div class="book-explain-box">
    <div class="top-message">
     <div class="sample-message">
@@ -50,11 +52,6 @@
 
     <div class="container-comment">
     <div class="sample-comment">
-    <div class="comment-king">
-    <div class="title-king">
-    コメント
-    </div>
-    </div>
 
     <% if current_user %>
       <%= form_with(model: [@book, @comment], local: true) do |form| %>
