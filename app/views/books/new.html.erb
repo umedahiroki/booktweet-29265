@@ -1,8 +1,10 @@
 <div class="contents-post">
+
+  <h3 class="new-title">新規投稿情報</h3>
+
   <div class="container">
-  
-    <h3 class="new-title">新規投稿情報</h3>
     
+    <div class="new-post">
     <%= form_with(model: @book, local: true) do |form| %>
 
       <div class="form-name">
@@ -26,6 +28,6 @@
       </div>
   
     <% end %>
-  
-  </div>
+    </div>
+    </div>
 </div>

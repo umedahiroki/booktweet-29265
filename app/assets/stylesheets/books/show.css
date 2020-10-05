@@ -1,3 +1,12 @@
+.search-show{
+    padding-top: 12.4px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 12.4px;
+    display: flex;
+    justify-content: center;
+}
+
 .book-explain-box{
     height: 100vh;
 }
@@ -57,7 +66,7 @@
 .text-header{
     background-color: #FFFFFF;
     width: 100%;
-    padding: 10px;
+    padding: 10px;   
 }
 
 .header-message{
@@ -70,7 +79,6 @@
 .text-title{
     font-weight: bold;
     font-size: 30px;
-
 }
 
 .text-name{
@@ -81,6 +89,7 @@
 .select-btn{
     display: flex;
     align-items: center;
+    padding-right: 5px;
 }
 
 .edit-btn{
@@ -171,11 +180,19 @@
 .comments{
     width: 100%;
 }
+.main-sample{
+    width: 100%;
+    border: 1px solid #f4f4f4;
+    border-radius: 16px;
+    background-color:#f4f4f4 ;
+    margin-bottom: 15px;
+}
 
 .main-essance{
     width: 100%;
-    padding-bottom: 8px;
     display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .comment-title{
@@ -193,3 +210,21 @@
     font-weight: bold;
 }
 
+.comment-time{
+    color:#777777;
+    font-size: 13px;
+    margin-left: 20px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+.comment-context{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.second-block{
+    margin-right: 20px;
+    padding-left: 15px;
+}

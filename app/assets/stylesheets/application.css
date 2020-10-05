@@ -21,12 +21,14 @@
 .header{
     background-color:#1C75BC;
     width: 100%;
+    height: 65px;
 }
 
 .header_bar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 
 .main-title{
@@ -70,8 +72,8 @@ header.header .second-message span:after {
   header.header .user-message ul {
     display: none;
     position: absolute;
-    top: 58px;
-    right: 157px;
+    top: 45px;
+    right: 170px;
     border-left: 1px solid #d8d8d8;
     border-right: 1px solid #d8d8d8;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
@@ -81,7 +83,7 @@ header.header .second-message span:after {
 
   header.header .second-message ul li a {
     display: block;
-    padding: 8px 15px;
+    padding: 5px 10px;
     text-align: left;
     border-bottom: 1px solid #d8d8d8;
     }  

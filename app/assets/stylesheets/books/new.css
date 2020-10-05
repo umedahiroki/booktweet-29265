@@ -1,37 +1,48 @@
 .contents-post {
     height: 100vh;
   }
+.container{
+    height: 100%;
+    background-color:#f4f4f4 ;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.new-post{
+    width: 100%;
+    background-color: #FFFFFF;
+}
   
 .new-title{
     display: flex;
     justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #efefef;
+    padding-top: 12.4px;
+    padding-bottom: 12.4px;
+    border-bottom: 20.4px solid #f4f4f4 ;
     font-size: 22px;
 }
 
 .form-name{
     display: flex;
     justify-content: center;
-    padding: 20px 0 18px 0;
+    padding: 20px 0 20px 0;
 }
 
 .name-box{
     border: 2px solid #1C75BC;
-    height: 36px;
+    height: 30px;
     border-radius: 5px;
 }
 
 .form-title{
     display: flex;
     justify-content: center;
-    padding-bottom: 18px;
+    padding-bottom: 20px;
 }
 
 .title-box{
     border: 2px solid #1C75BC;
-    height: 36px;
+    height: 30px;
     border-radius: 5px;
     outline: 0;    
 }
@@ -39,13 +50,13 @@
 .form-url{
     display: flex;
     justify-content: center;
-    padding-bottom: 18px;
+    padding-bottom: 20px;
     outline: 0;    
 }
 
 .url-box{
     border: 2px solid #1C75BC;
-    height: 36px;
+    height: 30px;
     border-radius: 5px;
     outline: 0;    
 }
@@ -53,7 +64,7 @@
 .form-text{
     display: flex;
     justify-content: center;
-    padding-bottom: 18px;
+    padding-bottom: 20px;
     outline: 0;    
 }
 
@@ -67,6 +78,7 @@
 .form-send{
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .submit-box{

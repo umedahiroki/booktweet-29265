@@ -3,7 +3,7 @@ function comment() {
 submit.addEventListener("click",(e) =>{
     const formData = new FormData(document.getElementById("form-date"));
     const XHR = new XMLHttpRequest();
-    XHR.open("POST", "/posts", true);
+    XHR.open("POST", "/comments", true);
     XHR.responseType = "json";
     XHR.send(formData);
     XHR.onload = () => {
@@ -13,21 +13,26 @@ submit.addEventListener("click",(e) =>{
         }
         const item = XHR.response.post;
         const list = document.getElementById("list");
-        const formText = document.getElementById("content");
+        const formText = document.getElementById("submit");
         const HTML = `
-          <div class="post" data-id=${item.id}>
-            <div class="post-date">
-              投稿日時：${item.created_at}
-            </div>
-            <div class="post-content">
-            ${item.content}
-            </div>
-          </div>`;
+        <div class="main-essance">
+        <div class="second-block">
+        <span class="comment-username">
+        <%= link_to ${comment.user.nicknmame}, "/users/${comment.user_id}",class:'comment-orner' %>
+        </span>
+        <span class="side-message">
+        ：
+        </span>
+        </div>
+        
+        <div class="comment-context">
+        <%= safe_join(${comment.text.split("\n"),tag(br)}%>
+        </div>
+        </div>`;
         list.insertAdjacentHTML("afterend", HTML);
         formText.value = "";
       };
-});
-
-
+      e.preventDefault();
+  });
 }
 window.addEventListener("load", comment);

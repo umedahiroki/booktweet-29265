@@ -1,5 +1,5 @@
 <div class= "serach-sample">
-<%= form_with(url: search_books_path, local: true, method: :get, class: "search-form") do |form| %>
+<%= form_with(url: search_books_path, local: true, method: :get, class: "search-show") do |form| %>
   <%= form.text_field :keyword, placeholder: "キーワードを入力",size: "35", class: "search-input" %>
   <%= form.submit "検索",class: "search-btn" %>
 <% end %>
@@ -69,22 +69,27 @@
        <div class="comment-title">
        ＜コメント一覧＞
       </div>
-      
+
+      <div id="list">
+      </div> 
+
       <div class="comment-main">
       <% if @comments %>
         <% @comments.each do |comment| %>
+           <div class="main-sample">
            <div class="main-essance">
             <div class="second-block">
             <span class="comment-username">
             <%= link_to comment.user.nicknmame, "/users/#{comment.user_id}",class:'comment-orner' %>
             </span>
-            <span class="side-message">
-            ：
-            </span>
             </div>
             
             <div class="comment-context">
             <%= safe_join(comment.text.split("\n"),tag(:br))%>
+            <% weeks = ["日","月","火","水","木","金","土"]%>
+            <% week = weeks[comment.created_at.wday]%>
+            <span class="comment-time"><%= comment.created_at.strftime("%y20/%m/%d(#{week}):%H:%M")%></span>
+            </div>
             </div>
             </div>
         <% end %>
