@@ -18,7 +18,7 @@
           <div class="second-message">
            <span class="user-message">
            <%= current_user.nicknmame %>
-           <ul class="user-info">
+           <ul class="user-info" id="user-acount">
             <li>
              <%= link_to "マイページ", "/users/#{current_user.id}",class: "my-page" %>
              <%= link_to "ログアウト", destroy_user_session_path, method: :delete,class: "log-out"%>
