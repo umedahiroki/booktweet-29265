@@ -7,13 +7,15 @@
     <script src="change.js"></script>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src="https://kit.fontawesome.com/0ff4165df8.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
       <header class="header">
       <div class="header_bar">
-        <h1 class="main-title"><a class='title-name' href="/">BookTweet</a></h1>
-        
+        <h1 class="main-title">
+        <span class="fas fa-feather icon-bird" ></span>
+        <a class='title-name' href="/">BookTweet</a></h1>
         <% if user_signed_in? %>
           <div class="second-message">
            <span class="user-message">
