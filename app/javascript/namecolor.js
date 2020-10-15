@@ -1,8 +1,10 @@
-$('#user-acount').hover(
+$(document).ready(function(){
+$('.user-info').hover(
     function(){
-        $('#user-acount').find('li').css('color','red');
+        $('.my-page').css('color','red');
     },
     function(){
-        $('#user-acount').find('li').css('color','red');
+        $('.log-out').css('color','red');
     }
 );
+});
