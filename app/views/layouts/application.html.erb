@@ -28,8 +28,14 @@
             </li>
            </ul>
           </span>
-
           <%= link_to "投稿する", new_book_path, class: "post" %>
+                      <script>
+                $('.menu').click(function(){
+                    $('.display-list').fadeIn();
+                    $('.list').css('display','block');
+                });
+
+            </script>
           </div>
 
         <% else %>
