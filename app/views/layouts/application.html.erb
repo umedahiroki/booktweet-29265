@@ -27,9 +27,19 @@
              <%= link_to "ログアウト", destroy_user_session_path, method: :delete,class: "log-out"%>
             </li>
               <script>
-                $('.menu').click(function(){
-                    $('.display-list').fadeIn();
-                    $('.list').css('display','block');
+                        if ($('.menu').hasClass('fal fa-times delete')){
+                        $('.menu').removeClass('fal fa-times delete');
+                        
+                        $('.delete').addClass('fa fa-bars menu');
+                        $('.display-list').fadeOut();
+                        $('.list').css('display','none');
+                    
+                    }else{
+
+                        $('.display-list').fadeIn();
+                        $('.list').css('display','block');
+                        $('.menu').addClass('fal fa-times delete');
+                  }
                 });
 
             </script>
