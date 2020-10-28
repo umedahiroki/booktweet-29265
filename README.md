@@ -1,5 +1,7 @@
 # BookTweet
 
+<img src="https://i.gyazo.com/bd7d4baa94fe00ca611f24b01dbbf037.png" width="600">
+
 ## ●アプリケーション概要
 本に対するレビューをSNSみたいに
 投稿、共有できるアプリケーションです。
