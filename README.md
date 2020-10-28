@@ -224,3 +224,7 @@ HTML5/CSS3：★★★☆☆<br>
 JavaScript：★★★☆☆<br>
 jQuery：★★★☆☆<br>
 Ruby:★★★☆☆<br>
+
+### ■ ブログ：
+プログラミングの学習に関してアウトプットしています。<br>
+https://ume1017.hateblo.jp/
